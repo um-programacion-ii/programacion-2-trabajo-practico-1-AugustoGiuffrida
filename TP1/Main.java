@@ -7,8 +7,8 @@ public class Main {
         Vehiculo vehiculo3 = new Vehiculo("WYZ789", "Ford" ,2005, 1050);
         System.out.println("\n📌 Lista de Vehículos Registrados:");
         System.out.println("-----------------------------------");
-        vehiculo1.mostrarInformacion();
-        vehiculo2.mostrarInformacion();
-        vehiculo3.mostrarInformacion();
+        VehiculoPrinter.imprimirVehiculo(vehiculo1);
+        VehiculoPrinter.imprimirVehiculo(vehiculo2);
+        VehiculoPrinter.imprimirVehiculo(vehiculo3);
     }
 }
