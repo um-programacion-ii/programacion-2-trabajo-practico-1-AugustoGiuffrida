@@ -67,7 +67,6 @@ public class Vehiculo {
         }
     }
 
-    //Metodos
     public void mostrarInformacion(){
         System.out.println("Vehículo: " +marca+ " | Patente: " +patente+ " | Año: " +anio+ "| Capacidad de carga: " +capacidadCargaKg+ " Kg");
     }
