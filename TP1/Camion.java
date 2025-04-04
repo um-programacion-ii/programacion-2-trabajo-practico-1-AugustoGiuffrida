@@ -16,4 +16,14 @@ public class Camion  extends Vehiculo{
         this.tieneAcoplado = tieneAcoplado;
     }
 
+    @Override
+    public String getDescripcion(){
+       String acopladoTexto;
+       if(tieneAcoplado){
+           acopladoTexto = "Si";
+       } else {
+           acopladoTexto = "No";
+       }
+       return super.getDescripcion() + " | Acoplado: " +acopladoTexto;
+    }
 }
