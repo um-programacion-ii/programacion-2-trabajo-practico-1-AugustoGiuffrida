@@ -15,11 +15,8 @@ public class Main {
 
         System.out.println("\n📌 Lista de Vehículos Registrados:");
         System.out.println("-----------------------------------");
-        VehiculoPrinter.imprimirVehiculo(vehiculo.get(0));
-        VehiculoPrinter.imprimirVehiculo(vehiculo.get(1));
-        VehiculoPrinter.imprimirVehiculo(vehiculo.get(2));
-        VehiculoPrinter.imprimirVehiculo(vehiculo.get(3));
-        VehiculoPrinter.imprimirVehiculo(vehiculo.get(4));
-        VehiculoPrinter.imprimirVehiculo(vehiculo.get(5));
+        for (Vehiculo v: vehiculo){
+            VehiculoPrinter.imprimirVehiculo(v);
+        }
     }
 }
