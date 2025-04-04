@@ -13,6 +13,7 @@ public class Main {
         vehiculo.add(new Camion("ERT767", "Audi", 2015, 7500, false));
         vehiculo.add(new Auto("QWE", "Honda", 2004, 5000, 4));
 
+        VehiculoFinder.buscarVehiculo(vehiculo);
         System.out.println("\n📌 Lista de Vehículos Registrados:");
         System.out.println("-----------------------------------");
         for (Vehiculo v: vehiculo){
